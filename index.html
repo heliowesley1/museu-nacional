@@ -12,7 +12,7 @@
 </head>
 <body>
     <div id="container">
-        <header>
+        <header> <!-- INÍCIO DO CABEÇALHO -->
             <div id="logo">
                 <h1><a href="">Museu Nacional</a></h1>
             </div>
@@ -27,7 +27,74 @@
                     <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
-        </header>
+        </header> <!-- FIM DO CABEÇALHO -->
+        <div id="principal"> <!-- INÍCIO DA NAVEGAÇÃO PRINCIPAL -->
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="img/museu.png" alt="imagem de um museu">
+                </section>
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Vídeo: Conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc?si=kto--Z3pScf9HShC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </article>
+                    <article id="mapa">
+                        <h3>Mapa: encontre o museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311821341!2d-43.22910382468973!3d-22.9057599792558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1743711957869!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li><a href="#">Os assustadores insetos</a></li>
+                            <li><a href="#">O crânio de Luiza, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="#">Preguiça Gigante e Tigres dentes-de-sabre</a></li>
+                            <li><a href="#">Plantas do Brasil Central</a></li>
+                            <li><a href="#">Neymar: O princípe que não virou rei</a></li>
+                            <li><a href="#">Arte com dinossauros</a></li>
+                            <li><a href="#"><strong>Veja todos (65)</strong></a></li>
+                        </ul>
+                    </article>
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni at, nihil itaque aut ipsam non consectetur sequi, laudantium odit tempore earum, doloremque eius dolores consequatur accusantium molestias? Quaerat, ipsam inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta magnam necessitatibus voluptate, consectetur corrupti modi earum. Optio veniam quos voluptates modi voluptatum? Ad fuga excepturi quos non expedita at eaque!</p>
+                        <a href="#"><strong>Leia mais</strong></a>
+                    </article>
+                </section>
+            </div>
+            <aside>
+                <section id="depoimento">
+                    <img src="img/depoimento.png" alt="">
+                </section>
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend></legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="data">Qtd Pessoas</label>
+                            <input style="width: 30px;" class="campo" type="text" id="qtd" value="1">
+                        </fieldset>
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+                <section id="galeria">
+                    <h4>Galeria de foto</h4>
+                    <a href=""><img src="img/imagem1.jpg" alt="imagem de um bar" width="93" height="93"></a>
+                    <a href=""><img src="img/imagem2.jpg" alt="imagem de uma recepcao" width="93" height="93"></a>
+                    <a href=""><img src="img/imagem3.jpg" alt="imagem de um vestido" width="93" height="93"></a>
+                    <a href=""><img src="img/imagem4.jpg" alt="imagem de umas paredes" width="93" height="93"></a>
+                </section>
+            </aside>
+            <footer>
+            
+                <p>
+                    &copy; 2019 <a href="#">Museu Nacional</a> - Todos os direitos Reservados.
+                </p>
+            </footer>
+        </div> <!-- FIM DA NAVEGAÇÃO PRINCIPAL -->
     </div>
 </body>
 </html>
